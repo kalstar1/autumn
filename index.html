@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#171315">
+  <meta name="description" content="A quiet autumn story about the details worth remembering.">
+  <title>After the Rain, Before the Words</title>
+  <link rel="stylesheet" href="style.css?v=20261003-9">
+</head>
+<body>
+  <div class="rain" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="window-glow" aria-hidden="true"></div>
+  <div class="leaf-drift leaf-drift-one" aria-hidden="true">·</div>
+  <div class="leaf-drift leaf-drift-two" aria-hidden="true">·</div>
+
+  <header class="topbar">
+    <div class="mark" aria-label="After the Rain, Before the Words">✦</div>
+    <div class="chapter-status" id="chapterStatus">A small autumn experiment</div>
+    <button class="reset-button" id="resetButton" type="button">Reset</button>
+  </header>
+
+  <main class="stage" id="stage" aria-live="polite">
+    <section class="scene-panel" id="scenePanel">
+      <div class="scene-content" id="sceneContent"></div>
+    </section>
+  </main>
+
+  <footer class="progress-wrap" aria-label="Story progress">
+    <div class="progress-dots" id="progressDots"></div>
+    <p class="progress-note" id="progressNote">Take your time with it.</p>
+  </footer>
+
+  <script src="script.js?v=20261003-9"></script>
+</body>
+</html>
